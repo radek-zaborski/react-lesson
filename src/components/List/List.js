@@ -23,9 +23,9 @@ class List extends React.Component {
             {this.props.children}
           </div>
     <div className={styles.columns}>
-    <Column colFirst={'hey'} />
-    <Column colSecond={'Plants'} />
-    <Column colThird={'Minerals'} />
+    <Column col={'Animals'} />
+    <Column col={'Plants'} />
+    <Column col={'Minerals'} />
     </div>
       </section>
     )

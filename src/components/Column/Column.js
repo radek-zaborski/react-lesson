@@ -8,9 +8,8 @@ class Column extends React.Component {
         return (
             <section className={styles.component}>
                 <h3 className={styles.title}>
-                    {this.props.colFirst}
-                    {this.props.colSecond}
-                    {this.props.colThird}
+                    {this.props.col}
+                  
                 </h3>
             
             </section>
@@ -20,9 +19,8 @@ class Column extends React.Component {
 
 Column.propTypes = {
     
-    colFirst: PropTypes.string.isRequired,
-    colSecond: PropTypes.string.isRequired,
-    colThird: PropTypes.string.isRequired,
+    col: PropTypes.string.isRequired,
+  
 };
 
 export default Column;
