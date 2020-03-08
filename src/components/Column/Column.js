@@ -8,10 +8,8 @@ class Column extends React.Component {
         return (
             <section className={styles.component}>
                 <h3 className={styles.title}>
-                    {this.props.col}
-                  
+                    {this.props.col}    
                 </h3>
-            
             </section>
         )
     }
@@ -19,7 +17,7 @@ class Column extends React.Component {
 
 Column.propTypes = {
     
-    col: PropTypes.string.isRequired,
+    col: PropTypes.node.isRequired,
   
 };
 
