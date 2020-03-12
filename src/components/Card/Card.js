@@ -9,7 +9,7 @@ static propTypes = {
 }
 render() {
   return (
-    <section className={Styles.Component}>
+    <section className={Styles.component}>
                 
       <h3>{this.props.title}</h3>
                 
