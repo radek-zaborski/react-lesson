@@ -5,6 +5,7 @@ import Card from '../Card/Card';
 import Creator from '../Creator/Creator';
 import {settings} from '../../data/dataStore';
 import Icon from '../Icon/Icon';
+
 class Column extends React.Component {
    
 static propTypes = {
@@ -22,7 +23,7 @@ render() {
   const {title, icon, cards, addCard} = this.props;
   return (
     <section className={styles.component}>
-      <h3 className={title}>{title}
+      <h3 className={styles.title}>{title}
         <span className={styles.icon}>
           <Icon name={icon}/>
         </span>
