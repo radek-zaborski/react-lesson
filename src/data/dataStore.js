@@ -13,6 +13,20 @@ export const settings = {
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
+export const General = {
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+
+
+};
+export const FaqContent = {
+  title: 'FAQ',
+  text: 'LoremDeserunt commodo exercitation irure culpa aliquip cupidatat. Excepteur in mollit Lorem deserunt officia. Duis ipsum id Lorem cupidatat sint.',
+
+};
+export const InfoContent = {
+  title: 'Info',
+  text: 'Polisz Lorem ipsum - blablabla itd. itp. :D ',
+};
 
 export const pageContents = {
   title: 'My first React app',
