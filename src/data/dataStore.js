@@ -93,6 +93,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Calendar',
+    description: 'Better to write, than to forget',
+    image: 'https://image.freepik.com/free-vector/hand-with-pen-marks-date-calendar-deadline-important-events-vector-concept_53562-6503.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Cooking book',
+    description: 'Home recipes',
+    image: 'https://image.freepik.com/free-photo/breakfast-food-cafe-delicious-contemporary-concept_53876-31718.jpg',
+  },
 ];
 
 const columns = [
